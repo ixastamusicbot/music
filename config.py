@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://github.com/ixastamusicbot/music')  # xBit Music Endpoint.
+YTPROXY_URL = getenv("YTPROXY_URL", None)  # xBit Music Endpoint.
 YT_API_KEY = "NxGBNexGenBots4e1026"  # Fixed API key inserted
 
 ## Other vars
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ixastamusicbot/music.git",
+    "https://github.com/ixastamusicbot/music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
